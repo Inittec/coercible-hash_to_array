@@ -9,7 +9,11 @@ Gem::Specification.new do |s|
   s.authors       = ['Krzysztof Buszewicz']
   s.email         = ['kbuszewicz@grupainteger.pl']
   s.summary       = 'Custom Coercible::Coercer::Hash to_array method'
-  s.homepage      = ''
+  s.description   = 'Use this gem if you\'re using Virtus'                  \
+                    ' (https://github.com/solnic/virtus)'                   \
+                    ' and want to be able to enforce collection attribute'  \
+                    ' passing hash to initializer.'
+  s.homepage      = 'https://github.com/Inittec/coercible-hash_to_array'
   s.license       = 'MIT'
 
   s.files         = `git ls-files -z`.split("\x0")
